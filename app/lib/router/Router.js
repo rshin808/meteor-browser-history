@@ -14,8 +14,16 @@ Router.route('/', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/InternetExplorer', {
+  name: 'InternetExplorer'
+});
+
+Router.route('/Chromne', {
+  name: 'Chrome'
+});
+
+Router.route('/Firefox', {
+  name: 'Firefox'
 });
 
 Router.route('/add', {
